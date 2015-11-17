@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E3E0371BE3F00B0071A28C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E0361BE3F00B0071A28C /* main.m */; };
+		79E3E03A1BE3F00B0071A28C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E0391BE3F00B0071A28C /* AppDelegate.m */; };
+		79E3E0401BE3F00B0071A28C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E3E03E1BE3F00B0071A28C /* Main.storyboard */; };
+		79E3E0431BE3F00B0071A28C /* Fitrofy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E0411BE3F00B0071A28C /* Fitrofy.xcdatamodeld */; };
+		79E3E0451BE3F00B0071A28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E3E0441BE3F00B0071A28C /* Assets.xcassets */; };
+		79E3E0481BE3F00B0071A28C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E3E0461BE3F00B0071A28C /* LaunchScreen.storyboard */; };
+		79E3E0531BE3F00B0071A28C /* FitrofyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E0521BE3F00B0071A28C /* FitrofyTests.m */; };
+		79E3E05E1BE3F00B0071A28C /* FitrofyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E05D1BE3F00B0071A28C /* FitrofyUITests.m */; };
+		79E3E06D1BE3FF180071A28C /* FiltrofyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E06C1BE3FF180071A28C /* FiltrofyTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		79E3E0701BE415DE0071A28C /* FiltrofyFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E06F1BE415DE0071A28C /* FiltrofyFilterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		79E3E0731BE417BD0071A28C /* EmptyTableBackroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E0721BE417BD0071A28C /* EmptyTableBackroundView.m */; settings = {ASSET_TAGS = (); }; };
+		79E3E0771BE418ED0071A28C /* UsersFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E0761BE418ED0071A28C /* UsersFilterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		79E3E07A1BE41C050071A28C /* FiltrofyRemoteDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E3E0791BE41C050071A28C /* FiltrofyRemoteDataLoader.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79E3E04F1BE3F00B0071A28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E3E02A1BE3F00B0071A28C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E3E0311BE3F00B0071A28C;
+			remoteInfo = Fitrofy;
+		};
+		79E3E05A1BE3F00B0071A28C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79E3E02A1BE3F00B0071A28C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79E3E0311BE3F00B0071A28C;
+			remoteInfo = Fitrofy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79E3E0321BE3F00B0071A28C /* Fitrofy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitrofy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E3E0361BE3F00B0071A28C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79E3E0381BE3F00B0071A28C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79E3E0391BE3F00B0071A28C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79E3E03F1BE3F00B0071A28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79E3E0421BE3F00B0071A28C /* Fitrofy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fitrofy.xcdatamodel; sourceTree = "<group>"; };
+		79E3E0441BE3F00B0071A28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79E3E0471BE3F00B0071A28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79E3E0491BE3F00B0071A28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E3E04E1BE3F00B0071A28C /* FitrofyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitrofyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E3E0521BE3F00B0071A28C /* FitrofyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitrofyTests.m; sourceTree = "<group>"; };
+		79E3E0541BE3F00B0071A28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E3E0591BE3F00B0071A28C /* FitrofyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitrofyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E3E05D1BE3F00B0071A28C /* FitrofyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitrofyUITests.m; sourceTree = "<group>"; };
+		79E3E05F1BE3F00B0071A28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E3E06B1BE3FF180071A28C /* FiltrofyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltrofyTableViewController.h; sourceTree = "<group>"; };
+		79E3E06C1BE3FF180071A28C /* FiltrofyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltrofyTableViewController.m; sourceTree = "<group>"; };
+		79E3E06E1BE415DE0071A28C /* FiltrofyFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltrofyFilterViewController.h; sourceTree = "<group>"; };
+		79E3E06F1BE415DE0071A28C /* FiltrofyFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltrofyFilterViewController.m; sourceTree = "<group>"; };
+		79E3E0711BE417BD0071A28C /* EmptyTableBackroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyTableBackroundView.h; sourceTree = "<group>"; };
+		79E3E0721BE417BD0071A28C /* EmptyTableBackroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyTableBackroundView.m; sourceTree = "<group>"; };
+		79E3E0751BE418ED0071A28C /* UsersFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsersFilterViewController.h; path = Example/UsersFilterViewController.h; sourceTree = "<group>"; };
+		79E3E0761BE418ED0071A28C /* UsersFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersFilterViewController.m; path = Example/UsersFilterViewController.m; sourceTree = "<group>"; };
+		79E3E0781BE41C050071A28C /* FiltrofyRemoteDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltrofyRemoteDataLoader.h; sourceTree = "<group>"; };
+		79E3E0791BE41C050071A28C /* FiltrofyRemoteDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltrofyRemoteDataLoader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E3E02F1BE3F00B0071A28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E3E04B1BE3F00B0071A28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E3E0561BE3F00B0071A28C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79E3E0291BE3F00B0071A28C = {
+			isa = PBXGroup;
+			children = (
+				79E3E0341BE3F00B0071A28C /* Fitrofy */,
+				79E3E0511BE3F00B0071A28C /* FitrofyTests */,
+				79E3E05C1BE3F00B0071A28C /* FitrofyUITests */,
+				79E3E0331BE3F00B0071A28C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79E3E0331BE3F00B0071A28C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E0321BE3F00B0071A28C /* Fitrofy.app */,
+				79E3E04E1BE3F00B0071A28C /* FitrofyTests.xctest */,
+				79E3E0591BE3F00B0071A28C /* FitrofyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79E3E0341BE3F00B0071A28C /* Fitrofy */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E0741BE418AA0071A28C /* Example */,
+				79E3E0381BE3F00B0071A28C /* AppDelegate.h */,
+				79E3E0391BE3F00B0071A28C /* AppDelegate.m */,
+				79E3E03E1BE3F00B0071A28C /* Main.storyboard */,
+				79E3E0441BE3F00B0071A28C /* Assets.xcassets */,
+				79E3E0461BE3F00B0071A28C /* LaunchScreen.storyboard */,
+				79E3E0491BE3F00B0071A28C /* Info.plist */,
+				79E3E0411BE3F00B0071A28C /* Fitrofy.xcdatamodeld */,
+				79E3E0351BE3F00B0071A28C /* Supporting Files */,
+				79E3E06B1BE3FF180071A28C /* FiltrofyTableViewController.h */,
+				79E3E06C1BE3FF180071A28C /* FiltrofyTableViewController.m */,
+				79E3E06E1BE415DE0071A28C /* FiltrofyFilterViewController.h */,
+				79E3E06F1BE415DE0071A28C /* FiltrofyFilterViewController.m */,
+				79E3E0711BE417BD0071A28C /* EmptyTableBackroundView.h */,
+				79E3E0721BE417BD0071A28C /* EmptyTableBackroundView.m */,
+				79E3E0781BE41C050071A28C /* FiltrofyRemoteDataLoader.h */,
+				79E3E0791BE41C050071A28C /* FiltrofyRemoteDataLoader.m */,
+			);
+			path = Fitrofy;
+			sourceTree = "<group>";
+		};
+		79E3E0351BE3F00B0071A28C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E0361BE3F00B0071A28C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79E3E0511BE3F00B0071A28C /* FitrofyTests */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E0521BE3F00B0071A28C /* FitrofyTests.m */,
+				79E3E0541BE3F00B0071A28C /* Info.plist */,
+			);
+			path = FitrofyTests;
+			sourceTree = "<group>";
+		};
+		79E3E05C1BE3F00B0071A28C /* FitrofyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E05D1BE3F00B0071A28C /* FitrofyUITests.m */,
+				79E3E05F1BE3F00B0071A28C /* Info.plist */,
+			);
+			path = FitrofyUITests;
+			sourceTree = "<group>";
+		};
+		79E3E0741BE418AA0071A28C /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				79E3E0751BE418ED0071A28C /* UsersFilterViewController.h */,
+				79E3E0761BE418ED0071A28C /* UsersFilterViewController.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79E3E0311BE3F00B0071A28C /* Fitrofy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E3E0621BE3F00B0071A28C /* Build configuration list for PBXNativeTarget "Fitrofy" */;
+			buildPhases = (
+				79E3E02E1BE3F00B0071A28C /* Sources */,
+				79E3E02F1BE3F00B0071A28C /* Frameworks */,
+				79E3E0301BE3F00B0071A28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitrofy;
+			productName = Fitrofy;
+			productReference = 79E3E0321BE3F00B0071A28C /* Fitrofy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79E3E04D1BE3F00B0071A28C /* FitrofyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E3E0651BE3F00B0071A28C /* Build configuration list for PBXNativeTarget "FitrofyTests" */;
+			buildPhases = (
+				79E3E04A1BE3F00B0071A28C /* Sources */,
+				79E3E04B1BE3F00B0071A28C /* Frameworks */,
+				79E3E04C1BE3F00B0071A28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E3E0501BE3F00B0071A28C /* PBXTargetDependency */,
+			);
+			name = FitrofyTests;
+			productName = FitrofyTests;
+			productReference = 79E3E04E1BE3F00B0071A28C /* FitrofyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79E3E0581BE3F00B0071A28C /* FitrofyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E3E0681BE3F00B0071A28C /* Build configuration list for PBXNativeTarget "FitrofyUITests" */;
+			buildPhases = (
+				79E3E0551BE3F00B0071A28C /* Sources */,
+				79E3E0561BE3F00B0071A28C /* Frameworks */,
+				79E3E0571BE3F00B0071A28C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E3E05B1BE3F00B0071A28C /* PBXTargetDependency */,
+			);
+			name = FitrofyUITests;
+			productName = FitrofyUITests;
+			productReference = 79E3E0591BE3F00B0071A28C /* FitrofyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79E3E02A1BE3F00B0071A28C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Helen Olhausen";
+				TargetAttributes = {
+					79E3E0311BE3F00B0071A28C = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					79E3E04D1BE3F00B0071A28C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 79E3E0311BE3F00B0071A28C;
+					};
+					79E3E0581BE3F00B0071A28C = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 79E3E0311BE3F00B0071A28C;
+					};
+				};
+			};
+			buildConfigurationList = 79E3E02D1BE3F00B0071A28C /* Build configuration list for PBXProject "Fitrofy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79E3E0291BE3F00B0071A28C;
+			productRefGroup = 79E3E0331BE3F00B0071A28C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79E3E0311BE3F00B0071A28C /* Fitrofy */,
+				79E3E04D1BE3F00B0071A28C /* FitrofyTests */,
+				79E3E0581BE3F00B0071A28C /* FitrofyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79E3E0301BE3F00B0071A28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E3E0481BE3F00B0071A28C /* LaunchScreen.storyboard in Resources */,
+				79E3E0451BE3F00B0071A28C /* Assets.xcassets in Resources */,
+				79E3E0401BE3F00B0071A28C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E3E04C1BE3F00B0071A28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E3E0571BE3F00B0071A28C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79E3E02E1BE3F00B0071A28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E3E03A1BE3F00B0071A28C /* AppDelegate.m in Sources */,
+				79E3E07A1BE41C050071A28C /* FiltrofyRemoteDataLoader.m in Sources */,
+				79E3E0731BE417BD0071A28C /* EmptyTableBackroundView.m in Sources */,
+				79E3E0371BE3F00B0071A28C /* main.m in Sources */,
+				79E3E0701BE415DE0071A28C /* FiltrofyFilterViewController.m in Sources */,
+				79E3E06D1BE3FF180071A28C /* FiltrofyTableViewController.m in Sources */,
+				79E3E0431BE3F00B0071A28C /* Fitrofy.xcdatamodeld in Sources */,
+				79E3E0771BE418ED0071A28C /* UsersFilterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E3E04A1BE3F00B0071A28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E3E0531BE3F00B0071A28C /* FitrofyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E3E0551BE3F00B0071A28C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E3E05E1BE3F00B0071A28C /* FitrofyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79E3E0501BE3F00B0071A28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E3E0311BE3F00B0071A28C /* Fitrofy */;
+			targetProxy = 79E3E04F1BE3F00B0071A28C /* PBXContainerItemProxy */;
+		};
+		79E3E05B1BE3F00B0071A28C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79E3E0311BE3F00B0071A28C /* Fitrofy */;
+			targetProxy = 79E3E05A1BE3F00B0071A28C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79E3E03E1BE3F00B0071A28C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E3E03F1BE3F00B0071A28C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79E3E0461BE3F00B0071A28C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79E3E0471BE3F00B0071A28C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79E3E0601BE3F00B0071A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79E3E0611BE3F00B0071A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79E3E0631BE3F00B0071A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fitrofy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helen.Fitrofy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79E3E0641BE3F00B0071A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fitrofy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helen.Fitrofy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79E3E0661BE3F00B0071A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FitrofyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helen.FitrofyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitrofy.app/Fitrofy";
+			};
+			name = Debug;
+		};
+		79E3E0671BE3F00B0071A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FitrofyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helen.FitrofyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitrofy.app/Fitrofy";
+			};
+			name = Release;
+		};
+		79E3E0691BE3F00B0071A28C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FitrofyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helen.FitrofyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fitrofy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		79E3E06A1BE3F00B0071A28C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FitrofyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helen.FitrofyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fitrofy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79E3E02D1BE3F00B0071A28C /* Build configuration list for PBXProject "Fitrofy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E3E0601BE3F00B0071A28C /* Debug */,
+				79E3E0611BE3F00B0071A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E3E0621BE3F00B0071A28C /* Build configuration list for PBXNativeTarget "Fitrofy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E3E0631BE3F00B0071A28C /* Debug */,
+				79E3E0641BE3F00B0071A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E3E0651BE3F00B0071A28C /* Build configuration list for PBXNativeTarget "FitrofyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E3E0661BE3F00B0071A28C /* Debug */,
+				79E3E0671BE3F00B0071A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		79E3E0681BE3F00B0071A28C /* Build configuration list for PBXNativeTarget "FitrofyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E3E0691BE3F00B0071A28C /* Debug */,
+				79E3E06A1BE3F00B0071A28C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79E3E0411BE3F00B0071A28C /* Fitrofy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79E3E0421BE3F00B0071A28C /* Fitrofy.xcdatamodel */,
+			);
+			currentVersion = 79E3E0421BE3F00B0071A28C /* Fitrofy.xcdatamodel */;
+			path = Fitrofy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79E3E02A1BE3F00B0071A28C /* Project object */;
+}
